@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="First commit for Java Exercices">
-      <change afterPath="$PROJECT_DIR$/src/com/exercices/StringSplitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exercices/Types.java" afterDir="false" />
+    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="Second commit for Java Exercices">
+      <change afterPath="$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exercices/DisemvowelTrolls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exercices/StringSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exercices/StringSplitter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +33,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/facun/Desktop/Development/OpenBootcamp/java/Java-course"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/facun/Desktop/Development/OpenBootcamp/java/Java-course&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.exercices" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringSplitter">
+  <component name="RunManager" selected="Application.CountingDuplicates">
+    <configuration name="CountingDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercices.CountingDuplicates" />
+      <module name="Exercices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisemvowelTrolls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercices.DisemvowelTrolls" />
+      <module name="Exercices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IvaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercices.IvaCalculator" />
       <module name="Exercices" />
@@ -86,6 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountingDuplicates" />
+        <item itemvalue="Application.DisemvowelTrolls" />
         <item itemvalue="Application.StringSplitter" />
         <item itemvalue="Application.Types" />
         <item itemvalue="Application.IvaCalculator" />
@@ -108,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669929270426</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second commit for Java Exercices">
+      <created>1669939808990</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669939808990</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +160,58 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit for Java Exercices" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit for Java Exercices" />
+    <MESSAGE value="Second commit for Java Exercices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit for Java Exercices" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/exercices/StringSplitter.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/untitled$CountingDuplicates.ic" NAME="CountingDuplicates Coverage Results" MODIFIED="1670041606638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.exercices.*</FILTER>
+    </SUITE>
   </component>
 </project>

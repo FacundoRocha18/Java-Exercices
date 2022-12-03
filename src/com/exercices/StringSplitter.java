@@ -1,5 +1,7 @@
 package com.exercices;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class StringSplitter {
@@ -13,40 +15,31 @@ public class StringSplitter {
 
     public static void main(String[] args) {
 
-        /*String s = "Hello World!!!!";
+        List<String[]> charactersPairs = solution("I love pizza");
 
-        String[] wordPairs = splitStringIntoWords(s);
-
-        String[] charactersPairs;
-
-        for (String word : wordPairs) {
-
-            charactersPairs = splitWordIntoCharacters(word);
-            // Dev
-            for(int i = 0; i < charactersPairs.length; i++) {
-                System.out.println(charactersPairs[i]);
-            }
-        }*/
-
-        System.out.println(solution("awo pdjoawpjkdpo2k92ie0odpajwopdjaw9d"));
-    }
-
-    public static String[] solution(String s) {
-
-        String[] wordPairs = splitStringIntoWords(s);
-
-        String[] charactersPairs = new String[5];
-
-        for (String word : wordPairs) {
-
-            charactersPairs = splitWordIntoCharacters(word);
-            // Dev
-            for(int i = 0; i < charactersPairs.length; i++) {
-                System.out.println(charactersPairs[i]);
+        for (String[] pair : charactersPairs) {
+            for (String characters : pair) {
+                System.out.println(characters);
             }
         }
 
-        return charactersPairs;
+        charactersPairs.forEach((pair) -> {
+            System.out.println(Arrays.toString(pair));
+        });
+    }
+
+    private static List<String[]> solution(String s) {
+
+        String[] words = splitStringIntoWords(s);
+
+        List<String[]> pairs = new ArrayList<>();
+
+        for (String word : words) {
+            pairs.add(splitWordIntoCharacters(word));
+        }
+
+        return pairs;
+
     }
 
     private static String[] splitWordIntoCharacters(String word) {
@@ -55,9 +48,7 @@ public class StringSplitter {
 
         String REGEX = "(?<=\\G..)";
 
-        String[] splitInPairs = word.split(REGEX, 0);
-
-        return splitInPairs;
+        return word.split(REGEX, 0);
 
     }
 
@@ -71,16 +62,5 @@ public class StringSplitter {
         } else {
             return word.concat("_");
         }
-
     }
-
-    /*
-    private static String[] handleSymbols(String s) {
-        String REGEX = "[^\\w\\s]|_";
-
-        String[] symbols = s.split(REGEX, 0);
-
-        return symbols;
-    }
-    */
 }
