@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="Added 2 new exercises">
-      <change afterPath="$PROJECT_DIR$/src/com/exercices/StringConcat.java" afterDir="false" />
+    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="New exercise: StringConcat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <recent name="com.exercices" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringConcat">
+  <component name="RunManager" selected="Application.CountingDuplicates">
     <configuration name="CountingDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercices.CountingDuplicates" />
       <module name="Exercices" />
@@ -111,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringConcat" />
         <item itemvalue="Application.CountingDuplicates" />
+        <item itemvalue="Application.StringConcat" />
         <item itemvalue="Application.DisemvowelTrolls" />
         <item itemvalue="Application.StringSplitter" />
         <item itemvalue="Application.Types" />
@@ -149,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670044912628</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New exercise: StringConcat">
+      <created>1670254380124</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670254380124</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +174,8 @@
     <MESSAGE value="First commit for Java Exercices" />
     <MESSAGE value="Second commit for Java Exercices" />
     <MESSAGE value="Added 2 new exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 2 new exercises" />
+    <MESSAGE value="New exercise: StringConcat" />
+    <option name="LAST_COMMIT_MESSAGE" value="New exercise: StringConcat" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -179,37 +187,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
-          <line>49</line>
+          <line>34</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
-          <line>36</line>
+          <line>23</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
-          <line>37</line>
+          <line>24</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
-          <line>38</line>
+          <line>25</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
-          <line>39</line>
+          <line>26</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
-          <line>42</line>
+          <line>29</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
-          <line>41</line>
+          <line>28</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
