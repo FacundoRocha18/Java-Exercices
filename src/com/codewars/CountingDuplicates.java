@@ -6,21 +6,17 @@ public class CountingDuplicates {
 
     public static void main(String[] args) {
         System.out.println(countDuplicates("Hello world"));
-
     }
 
     public static int countDuplicates(String str) {
 
         str = str.replace(" ", "").toLowerCase();
 
-        String[] characters = sort(convertToStringArray(str));
+        String[] characters = sort(str.split(""));
 
         Map<Integer, String> duplicates = new HashMap<>();
 
-        System.out.println(Arrays.toString(characters));
-
         int duplicatesCount = 0;
-
 
         for (int i = 0; i < characters.length; i++) {
             if(i > 0) {
@@ -33,12 +29,6 @@ public class CountingDuplicates {
             }
         }
         return duplicatesCount;
-    }
-
-    private static String[] convertToStringArray(String word) {
-
-        return word.split("");
-
     }
 
     public static String[] sort(String[] arr){
@@ -61,4 +51,8 @@ public class CountingDuplicates {
 
         return arr;
     }
+
+
+
+
 }

@@ -28,7 +28,7 @@ public class StringSplitter {
         });
     }
 
-    private static List<String[]> solution(String s) {
+    public static List<String[]> solution(String s) {
 
         String[] words = splitStringIntoWords(s);
 
@@ -42,7 +42,7 @@ public class StringSplitter {
 
     }
 
-    private static String[] splitWordIntoCharacters(String word) {
+    public static String[] splitWordIntoCharacters(String word) {
 
         word = handleOddWords(word);
 
@@ -52,11 +52,11 @@ public class StringSplitter {
 
     }
 
-    private static String[] splitStringIntoWords(String s){
+    public static String[] splitStringIntoWords(String s){
         return s.split(" ", 0);
     }
 
-    private static String handleOddWords(String word){
+    public static String handleOddWords(String word){
         if (word.length() % 2 == 0 ) {
             return word;
         } else {
