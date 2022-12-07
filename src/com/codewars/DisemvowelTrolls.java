@@ -1,4 +1,4 @@
-package com.exercices;
+package com.codewars;
 
 public class DisemvowelTrolls {
 

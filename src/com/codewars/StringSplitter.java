@@ -1,4 +1,4 @@
-package com.exercices;
+package com.codewars;
 
 import java.util.ArrayList;
 import java.util.Arrays;

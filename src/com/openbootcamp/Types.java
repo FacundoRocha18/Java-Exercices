@@ -1,4 +1,4 @@
-package com.exercices;
+package com.openbootcamp;
 
 public class Types {
 

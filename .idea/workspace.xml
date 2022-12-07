@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="New exercise: StringConcat">
+    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="TODO: complete CountingDuplicates">
+      <change afterPath="$PROJECT_DIR$/src/com/codewars/CountingDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/openbootcamp/SmartDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/openbootcamp/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/openbootcamp/SmartWatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exercices/DisemvowelTrolls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codewars/DisemvowelTrolls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exercices/IvaCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openbootcamp/IvaCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exercices/StringConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openbootcamp/StringConcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exercices/StringSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codewars/StringSplitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exercices/Types.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openbootcamp/Types.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +56,13 @@
       <recent name="com.exercices" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountingDuplicates">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CountingDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercices.CountingDuplicates" />
+      <option name="MAIN_CLASS_NAME" value="com.codewars.CountingDuplicates" />
       <module name="Exercices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercices.*" />
+          <option name="PATTERN" value="com.openbootcamp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,11 +71,11 @@
       </method>
     </configuration>
     <configuration name="DisemvowelTrolls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercices.DisemvowelTrolls" />
+      <option name="MAIN_CLASS_NAME" value="com.codewars.DisemvowelTrolls" />
       <module name="Exercices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercices.*" />
+          <option name="PATTERN" value="com.openbootcamp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Exercices" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringConcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercices.StringConcat" />
+      <option name="MAIN_CLASS_NAME" value="com.openbootcamp.StringConcat" />
       <module name="Exercices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercices.*" />
+          <option name="PATTERN" value="com.openbootcamp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,24 +104,11 @@
       </method>
     </configuration>
     <configuration name="StringSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercices.StringSplitter" />
+      <option name="MAIN_CLASS_NAME" value="com.codewars.StringSplitter" />
       <module name="Exercices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Types" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercices.Types" />
-      <module name="Exercices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exercices.*" />
+          <option name="PATTERN" value="com.openbootcamp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CountingDuplicates" />
+        <item itemvalue="Application.StringSplitter" />
         <item itemvalue="Application.StringConcat" />
         <item itemvalue="Application.DisemvowelTrolls" />
-        <item itemvalue="Application.StringSplitter" />
-        <item itemvalue="Application.Types" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670254380124</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TODO: complete CountingDuplicates">
+      <created>1670258093930</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670258093930</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,50 +189,41 @@
     <MESSAGE value="Second commit for Java Exercices" />
     <MESSAGE value="Added 2 new exercises" />
     <MESSAGE value="New exercise: StringConcat" />
-    <option name="LAST_COMMIT_MESSAGE" value="New exercise: StringConcat" />
+    <MESSAGE value="TODO: complete CountingDuplicates" />
+    <option name="LAST_COMMIT_MESSAGE" value="TODO: complete CountingDuplicates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/exercices/StringSplitter.java</url>
+          <url>file://$PROJECT_DIR$/src/com/codewars/StringSplitter.java</url>
           <line>55</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
+          <url>file://$PROJECT_DIR$/src/com/codewars/CountingDuplicates.java</url>
           <line>24</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/exercices/CountingDuplicates.java</url>
-          <line>28</line>
+          <url>file://$PROJECT_DIR$/src/com/codewars/CountingDuplicates.java</url>
+          <line>34</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/codewars/CountingDuplicates.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/codewars/CountingDuplicates.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/codewars/CountingDuplicates.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
