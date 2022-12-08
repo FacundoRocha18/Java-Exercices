@@ -1,9 +1,7 @@
 package com.openbootcamp.temas789;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Vector;
+import java.util.*;
 
 public class Temas789 {
     public static void main(String[] args) {
@@ -117,6 +115,69 @@ public class Temas789 {
             result = true;
         } catch (IOException exception) {
             System.out.println("IO failure");
+        }
+
+        return result;
+    }
+
+    public static boolean copyFileWArray(String fileIn, String fileOut) throws IOException {
+        boolean result = false;
+
+        try {
+            HashMap<String, String> data = new HashMap<>();
+
+            String text = getFileData(fileIn);
+
+            String[] arr = text.split(" ");
+
+            for (int i = 0; i < arr.length; i++) {
+                data.put("id: " + i + " data: ", arr[i]);
+            }
+
+
+            result = setFileData(fileOut, data);
+        } catch (IOException e) {
+            System.out.println("IO failure");
+        }
+        return result;
+    }
+
+    public static String getFileData(String fileIn) throws IOException {
+
+        String text = "";
+
+        try {
+            InputStream file = new FileInputStream(fileIn);
+
+            int data = file.read();
+
+            while (data != -1) {
+                text += (char)data;
+                data = file.read();
+            }
+
+        } catch (IOException e) {
+            System.out.println("Failure reading file data");
+        }
+
+        return text;
+    }
+
+    public static boolean setFileData(String fileOut, HashMap<String, String> data) throws IOException {
+        boolean result = false;
+
+        try {
+            PrintStream printer = new PrintStream(fileOut);
+
+            printer.println(data);
+
+            result = true;
+
+            if(result) {
+                System.out.println("Data saved successfully");
+            }
+        } catch (IOException e) {
+            System.out.println("Failure writing data into file");
         }
 
         return result;

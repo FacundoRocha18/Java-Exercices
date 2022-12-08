@@ -4,9 +4,9 @@ import com.openbootcamp.temas789.Temas789;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Vector;
 
 import static org.junit.Assert.assertArrayEquals;
@@ -108,6 +108,57 @@ public class Temas789Test {
         } catch (IOException e) {
             System.out.println(e.getMessage());
             assertEquals("IO failure", Temas789.copyFile(fileIn, fileOut));
+        }
+    }
+
+    @Test
+    @DisplayName("copyFileWArray should read the data from a file, add it into an ArrayList and then write it into another file")
+    public void copyFileWArray() throws IOException {
+        String fileIn = "C:\\Users\\facun\\Desktop\\Development\\OpenBootcamp\\java\\Java-Exercices\\CodeWars and OpenBootcamp exercises\\fileIn.txt";
+        String fileOut = "C:\\Users\\facun\\Desktop\\Development\\OpenBootcamp\\java\\Java-Exercices\\CodeWars and OpenBootcamp exercises\\fileOut.txt";
+
+        try {
+            assertEquals(true, Temas789.copyFileWArray(fileIn, fileOut));
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+            assertEquals("IO failure", Temas789.copyFileWArray(fileIn, fileOut));
+        }
+    }
+
+    @Test
+    @DisplayName("getFileData should return data string if successfully reads file and IOException if not")
+    public void getFileData() throws IOException {
+        String fileIn = "C:\\Users\\facun\\Desktop\\Development\\OpenBootcamp\\java\\Java-Exercices\\CodeWars and OpenBootcamp exercises\\fileIn.txt";
+
+        try {
+            assertEquals("Hello world", Temas789.getFileData(fileIn));
+
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+            assertEquals("Failure reading file data", Temas789.getFileData(fileIn));
+        }
+    }
+
+    @Test
+    @DisplayName("setFileData should return true if successfully writes data and IOException if not")
+    public void setFileData() throws IOException {
+
+        String fileIn = "C:\\Users\\facun\\Desktop\\Development\\OpenBootcamp\\java\\Java-Exercices\\CodeWars and OpenBootcamp exercises\\fileIn.txt";
+        String fileOut = "C:\\Users\\facun\\Desktop\\Development\\OpenBootcamp\\java\\Java-Exercices\\CodeWars and OpenBootcamp exercises\\fileOut.txt";
+        String text = "Hello world";
+
+        HashMap<String, String> data = new HashMap<>();
+        String[] arr = text.split(" ");
+
+        for (int i = 0; i < arr.length; i++) {
+            data.put("id: " + i + " data: ", arr[i]);
+        }
+
+        try {
+            assertEquals(true, Temas789.setFileData(fileOut, data));
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+            assertEquals("Failure writing data into file", Temas789.setFileData(fileOut, data));
         }
     }
 }

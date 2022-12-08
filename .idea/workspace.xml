@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="Created tests with jUnit for all the codewars exercises">
-      <change afterPath="$PROJECT_DIR$/fileIn.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/openbootcamp/temas789/Temas789.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/openbootcamp/temas789/Temas789Test.java" afterDir="false" />
+    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="Created tests with jUnit for OpenBootcamp exercises with TDD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileIn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fileIn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/openbootcamp/temas789/Temas789.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openbootcamp/temas789/Temas789.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/openbootcamp/temas789/Temas789Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/openbootcamp/temas789/Temas789Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,35 +67,7 @@
       <recent name="com.exercices" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Temas789Test.copyFile">
-    <configuration name="Temas789" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.openbootcamp.temas789.Temas789" />
-      <module name="Exercices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.openbootcamp.temas789.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Temas789Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exercices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.openbootcamp.temas789.Temas789Test" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.openbootcamp.temas789" />
-      <option name="MAIN_CLASS_NAME" value="test.openbootcamp.temas789.Temas789Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Temas789Test.copyFileWArray">
     <configuration name="Temas789Test.copyFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercices" />
       <extension name="coverage">
@@ -112,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temas789Test.divideByZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Temas789Test.copyFileWArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercices" />
       <extension name="coverage">
         <pattern>
@@ -122,13 +94,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.openbootcamp.temas789" />
       <option name="MAIN_CLASS_NAME" value="test.openbootcamp.temas789.Temas789Test" />
-      <option name="METHOD_NAME" value="divideByZero" />
+      <option name="METHOD_NAME" value="copyFileWArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temas789Test.removePairNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Temas789Test.copyFileWArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercices" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +110,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.openbootcamp.temas789" />
       <option name="MAIN_CLASS_NAME" value="test.openbootcamp.temas789.Temas789Test" />
-      <option name="METHOD_NAME" value="removePairNumbers" />
+      <option name="METHOD_NAME" value="copyFileWArrayList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Temas789Test.getFileData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.openbootcamp.temas789.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.openbootcamp.temas789" />
+      <option name="MAIN_CLASS_NAME" value="test.openbootcamp.temas789.Temas789Test" />
+      <option name="METHOD_NAME" value="getFileData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Temas789Test.setFileData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.openbootcamp.temas789.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.openbootcamp.temas789" />
+      <option name="MAIN_CLASS_NAME" value="test.openbootcamp.temas789.Temas789Test" />
+      <option name="METHOD_NAME" value="setFileData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Temas789Test.copyFileWArray" />
+        <item itemvalue="JUnit.Temas789Test.getFileData" />
+        <item itemvalue="JUnit.Temas789Test.setFileData" />
+        <item itemvalue="JUnit.Temas789Test.copyFileWArrayList" />
         <item itemvalue="JUnit.Temas789Test.copyFile" />
-        <item itemvalue="JUnit.Temas789Test.divideByZero" />
-        <item itemvalue="JUnit.Temas789Test.removePairNumbers" />
-        <item itemvalue="Application.Temas789" />
-        <item itemvalue="JUnit.Temas789Test" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670448563899</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Created tests with jUnit for OpenBootcamp exercises with TDD">
+      <created>1670476125896</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670476125896</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,7 +253,8 @@
     <MESSAGE value="Created separated folders for CodeWars and OpenBootcamp and added new exercises" />
     <MESSAGE value="New exercise in openbootcamp about Interfaces implementations, Repositories, OOP" />
     <MESSAGE value="Created tests with jUnit for all the codewars exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created tests with jUnit for all the codewars exercises" />
+    <MESSAGE value="Created tests with jUnit for OpenBootcamp exercises with TDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created tests with jUnit for OpenBootcamp exercises with TDD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -254,7 +266,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/openbootcamp/temas789/Temas789.java</url>
-          <line>39</line>
+          <line>37</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
