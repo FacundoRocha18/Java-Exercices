@@ -42,18 +42,18 @@ public class Main {
 
         System.out.println(toyota.numeroPuertas);
 
-        Persona facundo = new Persona();
+        Persona persona = new Persona();
 
-        facundo.setNombre("Facundo");
+        persona.setNombre("Facundo");
 
-        System.out.println(facundo.getNombre());
+        System.out.println(persona.getNombre());
 
-        facundo.setEdad(21);
+        persona.setEdad(21);
 
-        System.out.println(facundo.getEdad());
+        System.out.println(persona.getEdad());
 
-        facundo.setTelefono("92838291");
+        persona.setTelefono("92838291");
 
-        System.out.println(facundo.getTelefono());
+        System.out.println(persona.getTelefono());
     }
 }
