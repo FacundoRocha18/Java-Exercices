@@ -2,8 +2,10 @@ import com.openbootcamp.SmartDevice;
 import com.openbootcamp.SmartPhone;
 import com.openbootcamp.SmartWatch;
 import com.openbootcamp.classes.Car;
+import com.openbootcamp.fundamentosProgramacion.Cliente;
 import com.openbootcamp.fundamentosProgramacion.Coche;
 import com.openbootcamp.fundamentosProgramacion.Persona;
+import com.openbootcamp.fundamentosProgramacion.Trabajador;
 import com.openbootcamp.implementations.CarRepositoryImpl;
 import com.openbootcamp.interfaces.CarRepository;
 
@@ -55,5 +57,11 @@ public class Main {
         persona.setTelefono("92838291");
 
         System.out.println(persona.getTelefono());
+
+        Cliente cliente = new Cliente("Nacho", 24, "902819023", 1000);
+
+        System.out.println(cliente);
+
+        Trabajador trabajador = new Trabajador("Facundo", 21, "291823901", 2000);
     }
 }
