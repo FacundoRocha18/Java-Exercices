@@ -63,5 +63,7 @@ public class Main {
         System.out.println(cliente);
 
         Trabajador trabajador = new Trabajador("Facundo", 21, "291823901", 2000);
+
+        System.out.println(trabajador);
     }
 }
