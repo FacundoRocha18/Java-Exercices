@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="Nuevo ejercicio del tema 9 (Herencia) del Curso de Introduccion a la programacion de OpenBootcamp">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codewars/BuildTower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,20 @@
       <recent name="com.exercices" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.BuildTower">
+    <configuration name="BuildTower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codewars.BuildTower" />
+      <module name="Exercices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codewars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Functions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.openbootcamp.fundamentosProgramacion.Functions" />
       <module name="Exercices" />
@@ -113,28 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IvaCalculatorUITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exercices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.openbootcamp.swing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.openbootcamp.swing" />
-      <option name="MAIN_CLASS_NAME" value="com.openbootcamp.swing.IvaCalculatorUITest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuildTower" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Tema4" />
         <item itemvalue="Application.Functions" />
         <item itemvalue="Application.IvaCalculatorUI" />
-        <item itemvalue="JUnit.IvaCalculatorUITest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670550766366</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Nuevo ejercicio del tema 9 (Herencia) del Curso de Introduccion a la programacion de OpenBootcamp">
+      <created>1670550817116</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670550817116</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
