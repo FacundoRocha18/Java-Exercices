@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="Created tests with jUnit for OpenBootcamp exercises with TDD">
-      <change afterPath="$PROJECT_DIR$/src/com/openbootcamp/swing/IvaCalculatorUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/openbootcamp/swing/IvaCalculatorUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/openbootcamp/swing/IvaCalculatorUITest.java" afterDir="false" />
+    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="Created Swing app with jUnit tests with TDD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/openbootcamp/swing/IvaCalculatorUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openbootcamp/swing/IvaCalculatorUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/openbootcamp/swing/IvaCalculatorUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openbootcamp/swing/IvaCalculatorUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <recent name="com.exercices" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IvaCalculatorUITest">
+  <component name="RunManager" selected="Application.IvaCalculatorUI">
     <configuration name="IvaCalculatorUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.openbootcamp.swing.IvaCalculatorUI" />
       <module name="Exercices" />
@@ -147,8 +146,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IvaCalculatorUITest" />
         <item itemvalue="Application.IvaCalculatorUI" />
+        <item itemvalue="JUnit.IvaCalculatorUITest" />
         <item itemvalue="JUnit.Temas789Test" />
         <item itemvalue="JUnit.Temas789Test.copyFileWArray" />
         <item itemvalue="JUnit.Temas789Test.getFileData" />
@@ -234,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670521932170</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Created Swing app with jUnit tests with TDD">
+      <created>1670530416236</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670530416236</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +264,8 @@
     <MESSAGE value="New exercise in openbootcamp about Interfaces implementations, Repositories, OOP" />
     <MESSAGE value="Created tests with jUnit for all the codewars exercises" />
     <MESSAGE value="Created tests with jUnit for OpenBootcamp exercises with TDD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created tests with jUnit for OpenBootcamp exercises with TDD" />
+    <MESSAGE value="Created Swing app with jUnit tests with TDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Swing app with jUnit tests with TDD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

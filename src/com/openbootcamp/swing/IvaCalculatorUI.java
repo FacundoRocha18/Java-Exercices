@@ -10,6 +10,7 @@ public class IvaCalculatorUI {
     private JTextField price;
     private JTextField iva;
     private JTextField total;
+    private JButton cancelarButton;
 
     public IvaCalculatorUI() {
         buttonCalculate.addActionListener(new ActionListener() {
@@ -50,7 +51,6 @@ public class IvaCalculatorUI {
     }
 
     public static void main(String[] args) {
-        JFrame.setDefaultLookAndFeelDecorated(true);
         JFrame frame = new JFrame("Iva calculator");
         frame.setContentPane(new IvaCalculatorUI().mainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
