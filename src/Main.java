@@ -3,6 +3,7 @@ import com.openbootcamp.SmartPhone;
 import com.openbootcamp.SmartWatch;
 import com.openbootcamp.classes.Car;
 import com.openbootcamp.fundamentosProgramacion.Coche;
+import com.openbootcamp.fundamentosProgramacion.Persona;
 import com.openbootcamp.implementations.CarRepositoryImpl;
 import com.openbootcamp.interfaces.CarRepository;
 
@@ -40,5 +41,13 @@ public class Main {
         toyota.aumentarPuertas();
 
         System.out.println(toyota.numeroPuertas);
+
+        Persona facundo = new Persona("Facundo", 20, "01739261");
+
+        facundo.setEdad(21);
+
+        System.out.println(facundo.getEdad());
+
+
     }
 }

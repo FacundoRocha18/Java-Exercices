@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="Nueva carpeta creada para el Curso de Introduccion a la programacion de OpenBootcamp con un ejercicio dentro">
-      <change afterPath="$PROJECT_DIR$/src/com/openbootcamp/fundamentosProgramacion/Tema4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="Nuevo ejercicio del tema 4 del Curso de Introduccion a la programacion de OpenBootcamp">
+      <change afterPath="$PROJECT_DIR$/src/com/openbootcamp/fundamentosProgramacion/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/openbootcamp/fundamentosProgramacion/Tema8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/openbootcamp/fundamentosProgamacion/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openbootcamp/fundamentosProgramacion/Coche.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/openbootcamp/fundamentosProgamacion/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openbootcamp/fundamentosProgramacion/Functions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
       <recent name="com.exercices" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tema4">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Functions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.openbootcamp.fundamentosProgramacion.Functions" />
       <module name="Exercices" />
@@ -134,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tema4" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Tema4" />
         <item itemvalue="Application.Functions" />
         <item itemvalue="Application.IvaCalculatorUI" />
         <item itemvalue="JUnit.IvaCalculatorUITest" />
@@ -249,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670549229971</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Nuevo ejercicio del tema 4 del Curso de Introduccion a la programacion de OpenBootcamp">
+      <created>1670550030859</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670550030859</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,7 +280,8 @@
     <MESSAGE value="Created tests with jUnit for OpenBootcamp exercises with TDD" />
     <MESSAGE value="Created Swing app with jUnit tests with TDD" />
     <MESSAGE value="Nueva carpeta creada para el Curso de Introduccion a la programacion de OpenBootcamp con un ejercicio dentro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nueva carpeta creada para el Curso de Introduccion a la programacion de OpenBootcamp con un ejercicio dentro" />
+    <MESSAGE value="Nuevo ejercicio del tema 4 del Curso de Introduccion a la programacion de OpenBootcamp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nuevo ejercicio del tema 4 del Curso de Introduccion a la programacion de OpenBootcamp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
