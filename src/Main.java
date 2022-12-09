@@ -2,6 +2,7 @@ import com.openbootcamp.SmartDevice;
 import com.openbootcamp.SmartPhone;
 import com.openbootcamp.SmartWatch;
 import com.openbootcamp.classes.Car;
+import com.openbootcamp.fundamentosProgamacion.Coche;
 import com.openbootcamp.implementations.CarRepositoryImpl;
 import com.openbootcamp.interfaces.CarRepository;
 
@@ -33,5 +34,11 @@ public class Main {
         System.out.println(carRepository.findBy(toyotaSupraMKIV));
 
         System.out.println(carRepository.delete(toyotaSupraMKIV));
+
+        Coche toyota = new Coche(4);
+
+        toyota.aumentarPuertas();
+
+        System.out.println(toyota.numeroPuertas);
     }
 }
