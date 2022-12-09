@@ -2,7 +2,7 @@ import com.openbootcamp.SmartDevice;
 import com.openbootcamp.SmartPhone;
 import com.openbootcamp.SmartWatch;
 import com.openbootcamp.classes.Car;
-import com.openbootcamp.fundamentosProgamacion.Coche;
+import com.openbootcamp.fundamentosProgramacion.Coche;
 import com.openbootcamp.implementations.CarRepositoryImpl;
 import com.openbootcamp.interfaces.CarRepository;
 

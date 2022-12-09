@@ -1,4 +1,4 @@
-package com.openbootcamp.fundamentosProgamacion;
+package com.openbootcamp.fundamentosProgramacion;
 
 public class Coche {
     public Integer numeroPuertas;
