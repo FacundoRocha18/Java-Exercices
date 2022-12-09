@@ -7,4 +7,11 @@ public class Cliente extends Persona {
         super(nombre, edad, telefono);
         this.credito = credito;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "credito=" + credito +
+                '}';
+    }
 }

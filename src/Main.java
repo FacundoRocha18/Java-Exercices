@@ -60,10 +60,10 @@ public class Main {
 
         Cliente cliente = new Cliente("Nacho", 24, "902819023", 1000);
 
-        System.out.println(cliente);
+        System.out.println(cliente.toString());
 
         Trabajador trabajador = new Trabajador("Facundo", 21, "291823901", 2000);
 
-        System.out.println(trabajador);
+        System.out.println(trabajador.toString());
     }
 }

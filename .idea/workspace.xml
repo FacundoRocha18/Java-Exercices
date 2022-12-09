@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="Nuevo ejercicio del tema 4 del Curso de Introduccion a la programacion de OpenBootcamp">
-      <change afterPath="$PROJECT_DIR$/src/com/openbootcamp/fundamentosProgramacion/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/openbootcamp/fundamentosProgramacion/Tema8.java" afterDir="false" />
+    <list default="true" id="ce2cb718-bb8f-4021-a3c5-b40533421d2f" name="Changes" comment="Nuevo ejercicio del tema 9 (Herencia) del Curso de Introduccion a la programacion de OpenBootcamp">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +252,42 @@
       <option name="project" value="LOCAL" />
       <updated>1670550030859</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Nuevo ejercicio del tema 8 Encapsulacion del Curso de Introduccion a la programacion de OpenBootcamp">
+      <created>1670550378173</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670550378173</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Nuevo ejercicio del tema 8 Encapsulacion del Curso de Introduccion a la programacion de OpenBootcamp">
+      <created>1670550495799</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670550495799</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Nuevo ejercicio del tema 8 Encapsulacion del Curso de Introduccion a la programacion de OpenBootcamp">
+      <created>1670550520057</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670550520057</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Nuevo ejercicio del tema 9 (Herencia) del Curso de Introduccion a la programacion de OpenBootcamp">
+      <created>1670550754783</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670550754783</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Nuevo ejercicio del tema 9 (Herencia) del Curso de Introduccion a la programacion de OpenBootcamp">
+      <created>1670550766366</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670550766366</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,7 +314,9 @@
     <MESSAGE value="Created Swing app with jUnit tests with TDD" />
     <MESSAGE value="Nueva carpeta creada para el Curso de Introduccion a la programacion de OpenBootcamp con un ejercicio dentro" />
     <MESSAGE value="Nuevo ejercicio del tema 4 del Curso de Introduccion a la programacion de OpenBootcamp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nuevo ejercicio del tema 4 del Curso de Introduccion a la programacion de OpenBootcamp" />
+    <MESSAGE value="Nuevo ejercicio del tema 8 Encapsulacion del Curso de Introduccion a la programacion de OpenBootcamp" />
+    <MESSAGE value="Nuevo ejercicio del tema 9 (Herencia) del Curso de Introduccion a la programacion de OpenBootcamp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nuevo ejercicio del tema 9 (Herencia) del Curso de Introduccion a la programacion de OpenBootcamp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

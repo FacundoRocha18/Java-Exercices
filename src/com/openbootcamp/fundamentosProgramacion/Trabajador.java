@@ -8,4 +8,11 @@ public class Trabajador extends Persona {
         super(nombre, edad, telefono);
         this.salario = salario;
     }
+
+    @Override
+    public String toString() {
+        return "Trabajador{" +
+                "salario=" + salario +
+                '}';
+    }
 }
